@@ -1,5 +1,8 @@
 # Version History
 
+- 2.5.0
+  - added nrc validation error message
+  - support laravel 10
 - 2.4.0
   - added builder macros
 - 2.3.0
