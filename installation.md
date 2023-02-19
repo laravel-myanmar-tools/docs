@@ -10,9 +10,10 @@ composer require pyaesoneaung/laravel-myanmar-tools
 
 ## Version Compatibilities
 
-| Laravel Myanmar Tools  |    Laravel 10.\*    |    Laravel 9.\*    |    Laravel 8.\*    |    Laravel 7.\*    |    Laravel 6.\*    |
-| --------------------- | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: |
-| 2.x                   | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Laravel  | Package |
+| ------------- | ------------- |
+| 9.x - 10.x  | 3.x  |
+| 6.x - 10.x  | 2.x  |
 
 ## Publish Validation Messages (Optional)
 

@@ -6,6 +6,7 @@
 
   - [Myanmar Font](myanmar-font.md)
   - [Myanmar Phone Number](myanmar-phone-number.md)
+  - [Date](date.md)
   - [NRC](nrc.md)
 
 - Advanced Usage

@@ -1,10 +1,14 @@
 # Version History
 
+- 3.0.0
+  - added query builder macros
+  - added carbon macros
+  - only used [core's components](https://github.com/Laravel-Myanmar-Tools)
 - 2.5.0
   - added nrc validation error message
   - support laravel 10
 - 2.4.0
-  - added builder macros
+  - added eloquent builder macros
 - 2.3.0
   - added nrc macros and validation
 - 2.2.1
