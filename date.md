@@ -47,7 +47,7 @@ Carbon::parse('2023-05-01')->isLabourDay();
 ```php
 use Illuminate\Support\Carbon;
 
-Carbon::parse('2023-07-19')->isMartyrsDay()
+Carbon::parse('2023-07-19')->isMartyrsDay();
 
 // true
 ```
