@@ -1,5 +1,7 @@
 # Version History
 
+- 3.0.1
+  - bug fixed validation error messages
 - 3.0.0
   - added query builder macros
   - added carbon macros
