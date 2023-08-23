@@ -112,7 +112,7 @@ export default defineConfigWithTheme<ThemeConfig>({
                 indexName: 'laravel-myanmar-tools',
                 appId: 'DCF6RI9OLQ',
                 apiKey: 'a44efd964f910dd9fcca7551318e2f6f',
-                placeholder: 'Search Myanmar Tools Docs...'
+                placeholder: 'Search...'
             }
         },
         githubUrl: 'https://github.com/PyaeSoneAungRgn/laravel-myanmar-tools'
