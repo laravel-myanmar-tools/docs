@@ -10,6 +10,11 @@ export default defineConfigWithTheme<ThemeConfig>({
     cleanUrls: false,
     srcDir: 'src',
 
+    sitemap: {
+        hostname: 'https://www.laravel-myanmar-tools.com',
+        lastmodDateOnly: false
+    },
+
     head: [
         ['link', {
             rel: 'shortcut icon',
