@@ -99,6 +99,12 @@ export default defineConfigWithTheme<ThemeConfig>({
                 ],
             },
             {
+                text: 'Core',
+                items: [
+                    { text: 'Dependencies', link: '/dependencies' },
+                ],
+            },
+            {
                 text: 'Advanced Usage',
                 items: [
                     { text: 'Create Custom Macro', link: '/create-custom-macro' },
