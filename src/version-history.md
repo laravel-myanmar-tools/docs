@@ -1,5 +1,8 @@
 # Version History
 
+- 3.2.0
+  - added `telecomNetworkType`
+  - added `extractMyanmarPhoneNumber`, `extractMpt`, `extractOoredoo`, `extractTelenor`, `extractMec` and `extractMytel`
 - 3.1.0
   - support pgsql driver
 - 3.0.1
