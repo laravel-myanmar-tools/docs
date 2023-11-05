@@ -164,6 +164,24 @@ Str::telecomName('09690000000');
 // mytel
 ```
 
+### Get Telecom Network Type
+
+```php
+use Illuminate\Support\Str;
+
+Str::telecomNetworkType('09250000000');
+
+// gsm
+```
+
+```php
+use Illuminate\Support\Str;
+
+Str::telecomNetworkType('09440000000');
+
+// wcdma
+```
+
 ### Normalize Myanmar Phone Number
 
 ```php
@@ -204,6 +222,66 @@ use Illuminate\Support\Str;
 Str::normalizeMyanmarPhoneNumber('09-၂၅ဝရဝရဝရဝ');
 
 // 09250707070 (ဝလုံး နဲ့ ရကောက် ပါလျှင် 0 နဲ့ 7 လို့ပြောင်းလဲပါသည်)
+```
+
+### Extract Myanmar Phone Number
+
+```php
+use Illuminate\Support\Str;
+
+Str::extractMyanmarPhoneNumber('မောင်မောင်ရဲ့ ဖုန်းနံပါတ်များမှာ ၀၉၂၅၀၀၀၀၀၀၀ နှင့် ၀၉၉၇၀၀၀၀၀၀၀ တို့ဖြစ်ပါသည်။');
+
+// ["09250000000", "09970000000"]
+```
+
+### Extract MPT
+
+```php
+use Illuminate\Support\Str;
+
+Str::extractMpt('မောင်မောင်ရဲ့ ဖုန်းနံပါတ်မှာ 09250000000 ဖြစ်ပါသည်။');
+
+// ["09250000000"]
+```
+
+### Extract Ooredoo
+
+```php
+use Illuminate\Support\Str;
+
+Str::extractOoredoo('မောင်မောင်ရဲ့ ဖုန်းနံပါတ်မှာ 09970000000 ဖြစ်ပါသည်။');
+
+// ["09970000000"]
+```
+
+### Extract Telenor
+
+```php
+use Illuminate\Support\Str;
+
+Str::extractTelenor('မောင်မောင်ရဲ့ ဖုန်းနံပါတ်မှာ 09790000000 ဖြစ်ပါသည်။');
+
+// ["09790000000"]
+```
+
+### Extract MEC
+
+```php
+use Illuminate\Support\Str;
+
+Str::extractMec('မောင်မောင်ရဲ့ ဖုန်းနံပါတ်မှာ 0930000000 ဖြစ်ပါသည်။');
+
+// ["0930000000"]
+```
+
+### Extract Mytel
+
+```php
+use Illuminate\Support\Str;
+
+Str::extractMytel('မောင်မောင်ရဲ့ ဖုန်းနံပါတ်မှာ 09690000000 ဖြစ်ပါသည်။');
+
+// ["09690000000"]
 ```
 
 ## NRC

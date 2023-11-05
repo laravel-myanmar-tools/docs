@@ -6,7 +6,7 @@
 
 ```php
 $request->validate([
-    'phone' => ['required', 'myanmarPhoneNumber'],
+    'phone' => ['required', 'myanmar_phone_number'],
 ]);
 ```
 
