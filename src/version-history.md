@@ -1,5 +1,7 @@
 # Version History
 
+- 3.3.0
+  - support laravel 11
 - 3.2.0
   - added `telecomNetworkType`
   - added `extractMyanmarPhoneNumber`, `extractMpt`, `extractOoredoo`, `extractTelenor`, `extractMec` and `extractMytel`
