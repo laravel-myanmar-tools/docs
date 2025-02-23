@@ -1,6 +1,9 @@
 # Version History
 
 - 3.3.0
+  - support laravel 12
+  - support request validation with nullable eg: nullable|mpt
+- 3.3.0
   - support laravel 11
 - 3.2.0
   - added `telecomNetworkType`

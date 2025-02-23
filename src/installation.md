@@ -23,5 +23,5 @@ Now, you can edit validation messages at **/lang/vendor/laravelMyanmarTools/en/v
 
 | Laravel  | Package |
 | ------------- | ------------- |
-| 9.x - 11.x  | 3.x  |
+| 9.x - 12.x  | 3.x  |
 | 6.x - 10.x  | 2.x  |
