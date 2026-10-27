@@ -2,6 +2,9 @@
     "$schema": "node_modules/wrangler/config-schema.json",
     "name": "docs",
     "compatibility_date": "2026-10-27",
+    "build": {
+        "command": "npm run docs:build"
+    },
     "assets": {
         "directory": ".vitepress/dist",
         "html_handling": "auto-trailing-slash",
